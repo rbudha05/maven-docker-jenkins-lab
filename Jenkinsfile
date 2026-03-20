@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Check out') {
             steps {
-                git branch: 'main', url: 'git@github-rbudha05:rbudha05/maven-docker-jenkins-lab.git'
+                git branch: 'main', url: 'https://github.com/rbudha05/maven-docker-jenkins-lab.git'
             }
         }
 
